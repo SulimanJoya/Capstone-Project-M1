@@ -317,9 +317,7 @@ main {
 }
 
 .last-section {
-  border-top: #f0eded 1px solid;
-
-  /* outline: #8a8888; */
+  border-top: #f0eded 2px solid;
 }
 
 @media (min-width: 769px) {
