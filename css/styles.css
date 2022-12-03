@@ -135,7 +135,6 @@ main {
   background-position: center;
   background-size: contain;
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   font-size: 5.5rem;
@@ -413,9 +412,9 @@ main {
     font-size: 2.2rem;
   }
 
-.info {
-  width: 98%;
-}
+  .info {
+    width: 98%;
+  }
 
   .place-info,
   .place-info-about {
