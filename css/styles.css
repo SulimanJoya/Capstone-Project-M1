@@ -225,10 +225,6 @@ main {
 
 /* featured speakers */
 
-.featured-speaker {
-  background-color: #f8f8f8;
-}
-
 .featured-image {
   width: 100px;
 }
@@ -318,6 +314,12 @@ main {
   font-size: 1.4rem;
   font-weight: 400;
   color: #525252;
+}
+
+.last-section {
+  border-top: #f0eded 1px solid;
+
+  /* outline: #8a8888; */
 }
 
 @media (min-width: 769px) {
