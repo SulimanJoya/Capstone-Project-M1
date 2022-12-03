@@ -3,42 +3,42 @@ const featuredCards = document.querySelector('.featured-speaker');
 const cards = [
   {
     title: 'Hamid Karzai',
-    image: '../images/Karzai.png',
+    image: './images/Karzai.png',
     shortDescription: 'The fourth president of Afghanistan',
     longDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   },
   {
     title: 'Abdullah Abdullah',
-    image: '../images/Abdulah.png',
+    image: './images/Abdulah.png',
     shortDescription: 'Lorem ipsum dolor, sit amet.',
     longDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   },
   {
     title: 'Mohammad Mohaqiq',
-    image: '../images/Mohaqiq.png',
+    image: './images/Mohaqiq.png',
     shortDescription: 'Lorem ipsum dolor, sit amet.',
     longDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   },
   {
     title: 'Abdul Rashid Dostom',
-    image: '../images/Dostom.png',
+    image: './images/Dostom.png',
     shortDescription: 'Lorem ipsum dolor, sit amet.',
     longDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   },
   {
     title: 'Abdul Rab Sayaf',
-    image: '../images/Sayaf.png',
+    image: './images/Sayaf.png',
     shortDescription: 'Lorem ipsum dolor, sit amet.',
     longDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   },
   {
     title: 'Ata Mohammad Noor',
-    image: '../images/Noor.png',
+    image: './images/Noor.png',
     shortDescription: 'Lorem ipsum dolor, sit amet.',
     longDescription:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
