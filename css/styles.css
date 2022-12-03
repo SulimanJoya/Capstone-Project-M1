@@ -306,12 +306,12 @@ main {
   height: 100vh;
 }
 
-.footer {
+.about-footer {
   background-color: #272a31;
 }
 
-.footer p {
-  color: #dfd0d0;
+.footer-about {
+  color: #8a8888;
 }
 
 .past-para {
@@ -322,6 +322,10 @@ main {
 
 @media (min-width: 769px) {
   .hamburger {
+    display: none;
+  }
+  
+  .about-partner {
     display: none;
   }
 }
@@ -429,5 +433,13 @@ main {
   .info-about {
     width: 95%;
     margin-left: 0;
+  }
+
+  .about-footer {
+    background-color: #fff;
+  }
+  
+  .footer-about {
+    color: #3a3838;
   }
 }
