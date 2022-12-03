@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 2px solid #c03636; */
 }
 
 html {
@@ -13,4 +14,421 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+/* || Top links || */
+
+.top-links {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  gap: 2rem;
+  background: #3e3e3e;
+  width: 100%;
+  padding: 0.6rem 16rem;
+}
+
+.top-links li {
+  list-style: none;
+}
+
+.topLinks {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out;
+}
+
+.topLinks:hover {
+  color: #ee523c;
+}
+
+/* || Navigation bar || */
+
+.nav_bar {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background: #fff;
+  width: 100%;
+}
+
+.navbar_container {
+  display: flex;
+  align-content: center;
+  gap: 3rem;
+}
+
+.navbar_items {
+  padding: 1rem 1.2rem;
+}
+
+.nav_links {
+  text-decoration: none;
+  color: #525252;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav_links:hover {
+  color: #ee523c;
+}
+
+.nav_bar ul li {
+  list-style: none;
+}
+
+.lines {
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin: 5px auto;
+  background-color: #000;
+}
+
+.nav-bttn {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #ee523c;
+  border: 0.2rem solid #ee523c;
+  padding: 1rem;
+}
+
+.nav-bttn:hover {
+  background-color: #ee523c;
+  color: #fff;
+}
+
+.mylogo {
+  width: 6%;
+  padding-top: 0.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+/* || Main Section || */
+
+main {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  width: 100%;
+  height: 100vh;
+}
+
+.short-para {
+  margin-top: 10rem;
+  font-size: 3rem;
+  color: #f65a28;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.main-heading {
+  background: url("../images/text-bg.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 5.5rem;
+  font-weight: 900;
+  line-height: 6rem;
+  text-transform: uppercase;
+}
+
+.info {
+  background-color: #f7f7f7;
+  border: #fff solid 0.5rem;
+  border-radius: 0.5rem;
+  width: 54%;
+  font-size: 1.6rem;
+  color: #525252;
+  padding: 1rem 0;
+}
+
+.date-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #525252;
+}
+
+.place-info,
+.place-info-about {
+  font-size: 2rem;
+  color: #525252;
+}
+
+/* Mian Program */
+
+.main-program {
+  background-color: #272a31;
+  background-image: url(../images/program-bg.png);
+}
+
+.program-heading {
+  color: #fff;
+  font-size: 2.4rem;
+  padding-top: 4rem;
+}
+
+.red-line {
+  margin: 1rem auto;
+  height: 0.3rem;
+  width: 5.5rem;
+  background-color: #ec5242;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+}
+
+.program-image {
+  width: 5rem;
+}
+
+.title {
+  color: #ec5242;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.program-info {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-right: 1rem;
+}
+
+.progarm-card {
+  background: #9b979751;
+  opacity: 0.6;
+}
+
+.progarm-card:hover {
+  border: 0.3rem solid #ee523c;
+}
+
+.bottom-para {
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  padding: 4rem 0;
+  cursor: pointer;
+}
+
+/* featured speakers */
+
+.featured-speaker {
+  background-color: #f8f8f8;
+}
+
+.featured-image {
+  width: 100px;
+}
+
+.featured-heading {
+  color: #4f4f4f;
+  font-size: 2.4rem;
+  padding-top: 4rem;
+}
+
+.f-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+
+.featured-p1 {
+  color: #ee523c;
+  font-size: 1.5rem;
+}
+
+.featured-p2 {
+  color: #4f4f4f;
+  font-size: 1.5rem;
+}
+
+/* Partners */
+
+.Partners {
+  background-color: #272a31;
+}
+
+.partner-img {
+  width: 10rem;
+}
+
+/* footer section */
+
+.footer-logo {
+  width: 15rem;
+}
+
+.footer-para {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+
+/* About page  */
+
+.main-heading-about {
+  color: #fa4524;
+  font-size: 5.5rem;
+  font-weight: 900;
+  line-height: 6rem;
+  text-transform: uppercase;
+}
+
+.info-about {
+  background-color: #f7f7f7;
+  border: #fff solid 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  color: #525252;
+  padding: 1rem 0;
+  margin: 5rem;
+}
+
+.main-about {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  width: 100%;
+  height: 100vh;
+}
+
+.footer {
+  background-color: #272a31;
+}
+
+.footer p {
+  color: #dfd0d0;
+}
+
+.past-para {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #525252;
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  .top-links {
+    display: none;
+  }
+
+  .mylogo,
+  .nav-bttn {
+    display: none;
+  }
+
+  /* Hamburger */
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    z-index: 2;
+  }
+
+  .hamburger.active .two {
+    opacity: 0;
+  }
+
+  .hamburger.active .one {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .hamburger.active .three {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  .navbar_container {
+    position: fixed;
+    z-index: 2;
+    left: -150%;
+    top: 0;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #e1e2f0;
+    background-color: #fff;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(17px);
+    width: 100%;
+    height: 100vh;
+    transition: 0.3s;
+    padding: 60px 20px;
+  }
+
+  .nav_links {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    color: #525252;
+    margin-bottom: 3rem;
+  }
+
+  .navbar_container.active {
+    left: 0;
+  }
+
+  /* main section */
+
+  main {
+    background-image: url("../images/mobile-bg.png");
+  }
+
+  .short-para {
+    margin-top: 10rem;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .main-heading {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .date-heading {
+    font-size: 2.2rem;
+  }
+
+.info {
+  width: 98%;
+}
+
+  .place-info,
+  .place-info-about {
+    font-size: 2.2rem;
+  }
+
+  .main-heading-about {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+
+  .info-about {
+    width: 95%;
+    margin-left: 0;
+  }
 }
